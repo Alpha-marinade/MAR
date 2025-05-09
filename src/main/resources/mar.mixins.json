@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.alpha_marinade.mar.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mar.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "SearchMixin",
+    "SetupMixin",
+    "FilterMixin",
+    "TabConteinerMixin",
+    "FavoritesToggleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
